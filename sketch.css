@@ -1,0 +1,9 @@
+div {
+    outline: solid 1px red;
+}
+
+#pad {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
