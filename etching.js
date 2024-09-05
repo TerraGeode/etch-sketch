@@ -24,7 +24,7 @@ for (let i = 0; i <pixelCount; i +=1) {
 
 let newGrid = () => {
     pixelCount = parseInt(prompt("Enter a value between 10 and 100"));
-    while (Number.isInteger(pixelCount) && pixelCount >= 100 && pixelCount <= 10) {
+    while (pixelCount > 100 || pixelCount < 10) {
         pixelCount = parseInt(prompt("Enter a value between 10 and 100"));
     }
     pixelSIze = Math.floor(500/pixelCount);
